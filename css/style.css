@@ -190,17 +190,6 @@
 }
 
 /*** Team ***/
-.team-item .team-img::before,
-.team-item .team-img::after {
-    position: absolute;
-    content: '';
-    width: 0;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.85);
-    transition: 0.5s;
-}
 
 .team-item .team-img::after {
     left: auto;
